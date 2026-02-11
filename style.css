@@ -147,10 +147,11 @@ footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 .cyber-img {
-  width: 1905px;    
+  max-width: 100%;    
   height: auto;    
 }
 ol, ul {
   width: fit-content;
   margin: 0 auto;
 }
+

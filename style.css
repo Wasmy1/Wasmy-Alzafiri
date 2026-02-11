@@ -25,6 +25,10 @@ header {
   margin-left: 20px;
   font-size: 16px;
 }
+.cyber-img {
+  max-width: 100%;    
+  height: auto;    
+}
 
 .nav a:hover {
   color: #f0a500;
@@ -48,7 +52,6 @@ nav a:hover {
     gap: 25px;
     margin-top: 10px;
 }
-
 .container {
     padding: 40px;
     max-width: 1000px;
@@ -145,14 +148,11 @@ footer {
   text-align: center;           
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
-.cyber-img {
-  max-width: 100%;    
-  height: auto;    
-}
 ol, ul {
   width: fit-content;
   margin: 0 auto;
 }
+
 
 
 

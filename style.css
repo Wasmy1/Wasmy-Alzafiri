@@ -26,12 +26,8 @@ header {
   font-size: 16px;
 }
 .cyber-img {
-  max-width: 100%;    
-  height: auto;    
-}
-
-.nav a:hover {
-  color: #f0a500;
+max-width: 100%;
+height: auto;
 }
 nav a {
   color: white;
@@ -51,7 +47,10 @@ nav a:hover {
     justify-content: center;
     gap: 25px;
     margin-top: 10px;
+    max-width: 100%;
+    height: auto;
 }
+
 .container {
     padding: 40px;
     max-width: 1000px;
@@ -72,6 +71,7 @@ h2 {
     padding: 20px;
     border-radius: 8px;
     min-width: 250px;
+}
 footer {
     background-color: #0a1f44;
     color: white;
@@ -148,13 +148,8 @@ footer {
   text-align: center;           
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
+  
 ol, ul {
   width: fit-content;
   margin: 0 auto;
 }
-
-
-
-
-
-

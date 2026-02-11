@@ -69,13 +69,16 @@ h2 {
     padding: 20px;
     border-radius: 8px;
     min-width: 250px;
-}
 footer {
     background-color: #0a1f44;
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 100%;
+    margin-bottom: auto;
+    max-height: 100%;
+    -ms-flex-align: center;
+    height: auto;
 }
 .price-table {
     width: 100%;
